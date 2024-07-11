@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: django-project
+spec:
+  containers:
+  - name: django-project
+    image: damodarvishw/django-project:new-api
+    ports:
+    - containerPort: 8000
